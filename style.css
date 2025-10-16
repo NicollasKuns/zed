@@ -1,0 +1,164 @@
+body{
+    background-image: url(https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Zed_0.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#nome{
+    text-align: center;
+    font-size: 40px;
+}
+
+#sobre{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    width: 650px;
+    margin-left: 50px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.2), 0 0 20px rgba(0, 0, 0, 0.2);
+}
+#FeD{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#vulgo{
+    text-align: left;
+    font-size: 35px;
+    color: #8b0101;
+    margin-left: 15px;
+}
+
+#lore{
+    text-align: left;
+    margin-left: 15px;
+}
+
+#funcao {
+    border: 3px solid black;
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+    margin-left: 15px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    background-color: #3a0000ad;
+}
+
+#dificuldade{
+    border: 2px solid black;
+    border-radius: 15px;
+    height: 100px;
+    width: 100px;
+    margin-left: 15px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    background-color: #3a0000ad;
+}
+
+#nivel{
+    display: flex;
+}
+
+#facil{
+    background-color: gold;
+    height: 8px;
+    width: 30px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border: 2px solid black;
+}
+
+#moderado{
+    background-color: gold;
+    height: 8px;
+    width: 30px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border: 2px solid black;
+}
+#dificil{
+    background-color: rgb(41, 41, 41);
+    height: 8px;
+    width: 30px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border: 2px solid black;
+}
+#fed{
+    display: flex;
+}
+
+#imagem{
+    margin-left: auto;
+    margin-right: auto;
+    height: 30px;
+    width: 30px;
+}
+
+#TBio{
+    text-align: center;
+}
+
+#bio{
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    color: #ffffff;
+    width: 700px;
+}
+#FundoBio{
+    margin-top: 350px;
+    background-color: #3a0000;
+    border: 2px solid black;
+    padding: 100px;
+    border-radius: 15px;
+}
+
+#tituloH{
+    text-align: center;
+    color: #ffffff;
+}
+
+#skill{
+    width: 300px;
+    text-align: center;
+}
+#skills{
+    display: flex;
+}
+
+
+.ImgSkill{
+    width: 75px;
+    height: 75px;
+}
+.ImgSkill:hover{
+    scale: 115%;
+}
+.ImgSkill:active{
+    scale: 105%;
+}
+.skill{
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+.NomesHab{
+    color: #ffffff;
+}
+#descricao{
+    background-color: #ff0000;
+    width: 500px;
+    height: 410px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 130px;
+}
+#decricaoSkill{
+    text-align: center;
+}
