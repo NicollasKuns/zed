@@ -152,13 +152,10 @@ body{
     color: #ffffff;
 }
 #descricao{
-    background-color: #ff0000;
     width: 500px;
     height: 410px;
     text-align: center;
     font-size: 30px;
     margin-top: 130px;
-}
-#decricaoSkill{
-    text-align: center;
+    color: #ffffff;
 }
