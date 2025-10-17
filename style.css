@@ -71,6 +71,7 @@ body{
     margin-left: 3px;
     margin-right: 3px;
     border: 2px solid black;
+    border-radius: 2000px 0px 2000px 0px;
 }
 
 #moderado{
@@ -80,6 +81,7 @@ body{
     margin-left: 3px;
     margin-right: 3px;
     border: 2px solid black;
+    border-radius: 2000px 0px 2000px 0px;
 }
 #dificil{
     background-color: rgb(41, 41, 41);
@@ -88,6 +90,7 @@ body{
     margin-left: 3px;
     margin-right: 3px;
     border: 2px solid black;
+    border-radius: 2000px 0px 2000px 0px;
 }
 #fed{
     display: flex;
@@ -114,9 +117,8 @@ body{
 #FundoBio{
     margin-top: 350px;
     background-color: #3a0000;
-    border: 2px solid black;
     padding: 100px;
-    border-radius: 15px;
+    border-radius: 15px 15px 0px 0px;
 }
 
 #tituloH{
@@ -158,4 +160,17 @@ body{
     font-size: 30px;
     margin-top: 130px;
     color: #ffffff;
+}
+
+#VideoHab{
+    margin: 150px;
+}
+#habilidades{
+    background-color: #3c3c3c;
+    border-radius: 0px 0px 15px 15px;
+    padding: 20px;
+}
+
+.HabV{
+    display: none;
 }
